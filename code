@@ -1,0 +1,38 @@
+# Home-Automation
+#using bolt iot platform and relay switch, i made a project on home automation and I used web for coding
+#code for this
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<script type="text/javascript" src="/serveFile?filename=bolt.js"> setDebug(true); </script>
+<center>
+<b>BOLT - BULB CONTROL</b> 
+</center>
+<style>
+.btn-width-height{
+width:40px;
+height:25px;
+}
+</style>
+</head>
+<body style="font-family: Roboto;background: #3498DB;">
+<center>
+<div style="margin-top:80px;">
+<table cellpadding="10">
+<tr>
+<th></th> 
+<th><button class="btn-width-height" type="button" onclick="digitalWrite(A0,HIGH);" > <b>ON</b> </button></th>
+<th></th>
+</tr>
+<tr>
+<th></th>
+<th><button class="btn-width-height" type="button" onclick="digitalWrite(A0,LOW);"> <b>OFF</b> </button></th>
+<th></th>
+</tr>
+</table>
+</div>
+</center>
+</body>
+</html>
