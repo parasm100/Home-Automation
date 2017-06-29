@@ -7,6 +7,7 @@ Bolt is a LOW power device , any high currents generated on the PCB of Bolt will
 To overcome these drawbacks we have to use solid state relay. 
 To know more about functioning of Solid state relays AND relays in general please refer to the following links:
 https://en.wikipedia.org/wiki/Relay
+
 https://en.wikipedia.org/wiki/Solid-state_relay
 
 Circuit Connections of A relay and Bolt. 
